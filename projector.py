@@ -15,10 +15,10 @@ from training import misc
 
 class Projector:
     def __init__(self):
-        self.num_steps                  = 1000
-        self.dlatent_avg_samples        = 10000
-        self.initial_learning_rate      = 0.1
-        self.initial_noise_factor       = 0.05
+        self.num_steps                  = 1020
+        self.dlatent_avg_samples        = 1000
+        self.initial_learning_rate      = 0.05
+        self.initial_noise_factor       = 0.005
         self.lr_rampdown_length         = 0.25
         self.lr_rampup_length           = 0.05
         self.noise_ramp_length          = 0.75
