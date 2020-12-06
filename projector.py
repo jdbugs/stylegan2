@@ -16,7 +16,7 @@ from training import misc
 class Projector:
     def __init__(self):
         self.num_steps                  = 1020
-        self.dlatent_avg_samples        = 15000
+        self.dlatent_avg_samples        = 10000
         self.initial_learning_rate      = 2.0
         self.initial_noise_factor       = 0.07
         self.lr_rampdown_length         = 0.25
